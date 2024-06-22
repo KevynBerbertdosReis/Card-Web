@@ -1,0 +1,96 @@
+h3,
+h5 {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+h5,
+p {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+hr,
+p {
+    margin: 0;
+    margin-top: 16px;
+}
+
+h3,
+hr {
+    margin-top: 16px;
+
+}
+
+.card {
+    width: 342px;
+    height: 504px;
+    margin: 0 auto;
+   
+}
+
+.card .card-img img{
+    width: 100%;
+}
+
+.card-info{
+    font-family: sans-serif;
+}
+
+.card-img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: transparent;
+    
+}
+
+.card-body {
+    background-color: gray;
+    height: 282px;
+    padding: 24px;
+    gap: 16px;
+}
+
+.card-tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.card-details .h3{
+    width: 108px;
+    height: 18px;
+}
+
+.card-details .card-tags button{
+    color: gray;
+    border-radius: 100px;
+    width: 60px;
+    height: 31px;
+    border: 1px;
+}
+
+.card-details .botao button{
+    color: azure;
+    background-color: black;
+    width: 76px;
+    height: 31px;
+    border-radius: 12px;
+    border: 1px;
+    gap: 10px;
+}
+
+.botao{
+    
+    width: 76px;
+    height: 31px;
+}
+.card-details{
+    font-family: sans-serif;
+}
+
+.card-body .card-info p, h3, h5{
+    color: white;
+}
